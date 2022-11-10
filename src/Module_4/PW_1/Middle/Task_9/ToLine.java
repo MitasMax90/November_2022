@@ -8,7 +8,7 @@ public class ToLine {
     }
 
     int[] resize() {
-        // Склеиваем двумерный массив в одномерный при помощи start
+        // Склеиваем двумерный массив в одномерный при помощи переменной типа int start
         int[] result = new int[data.length * data[0].length];
         int start = 0;
         for (int[] buff : data) {
