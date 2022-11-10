@@ -8,6 +8,7 @@ public class Main {
         int value = add(7, 8);
         int result = add(value, 15);
         System.out.println(result);
+
     }
 
     private static int add(int x, int y) {
@@ -15,3 +16,5 @@ public class Main {
         return result;
     }
 }
+
+    // Пофиксили баги, всё огонь!
